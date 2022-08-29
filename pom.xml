@@ -57,6 +57,13 @@
 				<groupId>pl.project13.maven</groupId>
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
+			<plugin>
+         			<artifactId>maven-compiler-plugin</artifactId>
+         			<version>3.8.0</version>
+         			<configuration>
+           			<release>10</release>
+         			</configuration>
+      			</plugin>
 		</plugins>
 		<finalName>devops-integration</finalName>
 	</build>
